@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(rgb(19, 150, 202), rgb(18, 1, 71));
+    font-family: sans-serif;
+    color: #f4f4f4;
+    padding: 1em 0;
+}
+.container{
+    width: 40%;    
+    margin: 10px;
+    display: flex;
+}
+
+.subcontainer{
+    /*background-color: red;*/
+    flex:1;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeAndLoc{
+  /*display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+    width: 60vw;*/
+}
+
+.tempAndIcon{
+   /* display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 60vw;
+    padding: 2em;*/
+}
+
+.time, .location, .temperature, .icon{
+    
+    /*padding: 0 2em;*/
+}
+.temp-section{
+    display: flex;
+    justify-content: center;
+}
+
+.temp-main{
+    font-size: 4em;
+}
+/*
+.location, .temperature{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px
+}
+
+.degree-section h2{
+    font-size: 60px;
+}*/
+
+.poweredBy{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+.poweredBy a, .poweredBy a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.forecast{
+    display: flex;
+   /* align-items: center;*/
+}
+.forecast-daily{
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+}
+
+.forecast__element{
+    margin: 10px 0;
+}
+
+.forecast__day{
+font-size: 1.5em;
+}
+
+.forecast__date{
+font-size: .6em;
+}
+
+.time{
+    font-size: 3em;
+}
+
+.search-location{
+    visibility: hidden;
+}
+#location{
+
+    height: 2em;
+    font-size: 1.6em;
+    color: #f3f3f3;
+    background: #4b75ff;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.search-btn{
+    height: 2em;
+    width: 2em;
+    font-size: 1.6em;
+    border-radius: 5px;
+    background: #4b75ff;
+    cursor: pointer;
+    color: #f3f3f3;
+}
+
+.chart-container{
+    
+    
+    width: 60vw;
+}
+
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

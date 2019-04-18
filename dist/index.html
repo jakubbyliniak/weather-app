@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <link rel="icon" href="/favicon.26242483.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Weather</title>
+<script src="/style.e308ff8e.js"></script></head>
+<body>
+        
+    <div class="main-container">
+        <div class="container">
+            <div class="subcontainer">
+            <form class="search-location">
+
+                <input type="text" name="searchLoc" id="location">
+                <button type="submit" class="search-btn" value="submit"><i class="fas fa-search"></i></button>
+
+            </form>
+        </div>
+        </div>
+
+        <div class="container timeAndLoc">
+            <div class="subcontainer">
+                <div class="location">
+                        <h1 class="location-timezone">Timezone</h1>
+                </div>
+            </div>
+            <div class="subcontainer">
+                    
+                    <div class="time">time</div>
+                </div>
+        </div>
+
+        <div class="container tempAndIcon">
+            <div class="subcontainer">
+                <div class="temperature temp-main">
+                    <div class="temp-section degree-section">
+                        <h2 class=" temperature-degree">34</h2>
+                        <span>&#176</span>
+                        <span class="degree-type">C</span>
+                    </div>
+                </div>      
+            </div> 
+
+            <div class="subcontainer">                
+                <canvas class="icon" width="128" height="128"></canvas>
+            </div>
+             
+        </div>
+                
+        <div class="chart-container">
+            <canvas id="myChart" width="" height=""></canvas>
+        </div>
+            <div class="subcontainer">
+                    <div class="forecast">
+
+                        </div>
+            </div>
+       
+        
+    </div>  
+
+    <div class="poweredBy">
+        <a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
+    </div>
+
+    <script src="/skycons.e036c84e.js"></script>
+    <script src="https://cdnjs.com/libraries/Chart.js"></script>
+    <script src="/app.c328ef1a.js"></script>
+</body>
+</html>
